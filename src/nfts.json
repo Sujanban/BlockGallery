@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Bored Ape Hat with Fan",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x2RDT43DJEZX35DG",
+    "owner_img": "../../images/profile1.jpg",
+    "image": "../../images/nft1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Bored Ape Cap",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x343D23JEZ383X35DG",
+    "owner_img": "../../images/profile2.jpeg",
+    "image": "../../images/nft2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Bored Ape Helmet",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x9T43D3JE56ZX35DG",
+    "image": "../../images/nft3.webp",
+    "owner_img": "../../images/profile3.png"
+  },
+  {
+    "id": 4,
+    "name": "Bored Ape Hat with Glasses",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x2RDT43DJEZX35DG",
+    "image": "../../images/nft4.webp",
+    "owner_img": "../../images/profile4.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Bored Ape Cap",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x343D23JEZ383X35DG",
+    "owner_img": "../../images/profile2.jpeg",
+    "image": "../../images/nft2.webp"
+  },
+  {
+    "id": 6,
+    "name": "Bored Ape Helmet",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x9T43D3JE56ZX35DG",
+    "image": "../../images/nft3.webp",
+    "owner_img": "../../images/profile3.png"
+  },
+  {
+    "id": 7,
+    "name": "Bored Ape Hat with Glasses",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x2RDT43DJEZX35DG",
+    "image": "../../images/nft4.webp",
+    "owner_img": "../../images/profile4.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Bored Ape Hat with Glasses",
+    "discription": "A Short Discription about NFT.",
+    "owner": "0x2RDT43DJEZX35DG",
+    "image": "../../images/nft4.webp",
+    "owner_img": "../../images/profile4.jpg"
+  }
+]

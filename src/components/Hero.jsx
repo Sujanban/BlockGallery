@@ -1,13 +1,9 @@
-import "./home.css";
+import React from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
-import boredape from "../../images/boredape.png"
-import cyberpunk from "../../images/cyberpunk.webp"
-import { Socials } from "../../components/socials/Socials";
-import { Footer } from "../../components/footer/Footer";
 
-export const Home = () => {
-    return (
-        <>
+export const Hero = () => {
+  return (
+    <div>
         <div className="px-8 md:px-4 lg:px-8 mt-[10vh] w-full h-[90vh]">
             <div className="xl:w-4/5 mx-auto h-full">
                 <div className="h-full my-auto sm:grid grid-cols-2">
@@ -27,8 +23,6 @@ export const Home = () => {
                 </div>
             </div>
         </div>
-        <Socials/>
-        <Footer/>
-        </>
-    )
+    </div>
+  )
 }

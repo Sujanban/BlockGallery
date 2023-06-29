@@ -9,10 +9,10 @@ export const Socials = () => {
                 <p className='py-4 text-base'>Meet the Community, Artists and collectors for platform updates, announcements, and more...</p>
                 <button className='m-4 px-4 py-2 flex items-center mx-auto text-txt hover:bg-yellow-500 bg-yelloww rounded-full'><FaTelegram className='mx-2' />Launch Telegram</button>
                 <div>
-                    <FaFacebookSquare className='absolute top-1/3 left-1/3 opacity-40'/>
-                    <FaInstagramSquare  className='absolute  top-1/3 right-1/4 opacity-40'/>
-                    <FaTwitterSquare  className='absolute  top-1/4 left-1/4 opacity-40'/>
-                    <FaTelegram  className='absolute  top-2/3 left-2/3 opacity-40'/>
+                    <FaFacebookSquare className='absolute top-1/3 left-1/3 opacity-40 animate-bounce'/>
+                    <FaInstagramSquare  className='absolute  top-1/3 right-1/4 opacity-40 animate-bounce'/>
+                    <FaTwitterSquare  className='absolute  top-1/4 left-1/4 opacity-40 animate-bounce'/>
+                    <FaTelegram  className='absolute  top-2/3 left-2/3 opacity-40 animate-bounce'/>
                 </div>
             </div>
         </div>

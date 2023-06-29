@@ -1,10 +1,13 @@
-import { Navbar } from "./components/navbar/Navbar";
+import { Navbar } from "./components/Navbar";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import { Home } from "./pages/home/Home";
-import { Create } from "./pages/create/Create";
-import { Buy } from "./pages/buy/Buy";
-import { Sell } from "./pages/sell/Sell";
+import { Home } from "./pages/Home";
+import { Create } from "./pages/Create";
+import { Buy, Explore } from "./pages/Explore";
+import { Sell } from "./pages/Sell";
+import { Product } from "./pages/Product";
+import { Profile } from "./pages/Profile";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
@@ -14,8 +17,11 @@ function App() {
         <Routes>
           <Route path="/" Component={Home} exact />
           <Route path="/create" Component={Create} />
-          <Route path="/buy" Component={Buy} />
+          <Route path="/explore" Component={Explore} />
           <Route path="/sell" Component={Sell} />
+          <Route path="/product" Component={Product} />
+          <Route path="/profile" Component={Profile} />
+          <Route path="/contact" Component={Contact} />
         </Routes>
       </BrowserRouter>
     </div>
